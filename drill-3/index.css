@@ -1,0 +1,63 @@
+body {
+  position: relative;
+}
+
+.top {
+  background-color: lightgrey;
+  height: 75px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#smallBox {
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+}
+
+.text > p {
+  margin: 50px;
+}
+
+.color {
+  height: 200px;
+}
+
+#blue {
+  background-color: deepskyblue;
+}
+
+#teal {
+  background-color: turquoise;
+}
+
+#lightYellow {
+  background-color: lightyellow;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+/* #circle {
+    border: 2px solid black;
+  } */
+
+#circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  position: fixed;
+  /*   position: sticky; */
+  bottom: 5px;
+  right: 5px;
+}
